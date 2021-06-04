@@ -1,0 +1,22 @@
+.tableDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.tdStyle {
+    width: 60px;
+    height: 60px;
+    font-size: 35px;
+}
+
+.tdStyle:hover {
+    cursor: pointer;
+    color: #0f6312;
+    font-weight: bold;
+}
+
+.thStyle {
+    width: 60px;
+    height: 60px;
+    font-size: 35px;
+}

@@ -1,0 +1,82 @@
+.TasksColorParag {
+    color: #0f6312;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tasksForm {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.AddForm {
+    display: flex;
+    justify-content: center;
+}
+
+.AddFormBtn {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 0.5px #282927;
+    background-color: #282927;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.AddFormBtn:hover {
+    cursor: pointer;
+    background-color: #5d6146;
+}
+
+.liStyle {
+    border: solid 1px #282927;
+    border-radius: 5px;
+    list-style-type: none;
+    background-color: #e8ebc0;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+}
+
+.liStyle div textarea {
+    width: 300px;
+    max-width: 300px;
+}
+
+.delBtn {
+    background-color: #282927;
+    color: red;
+    border: solid 1px #282927;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delBtn:hover {
+    background-color: #5d6146;
+    cursor: pointer;
+}
+
+.saveBtn {
+    background-color: #282927;
+    color: #caf0c5;
+    border: solid 1px #282927;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-right: 5px;  
+}
+
+.saveBtn:hover {
+    background-color: #5d6146;
+    cursor: pointer;   
+}
+
+.delDivStyle {
+    display: flex;
+    align-items: center;
+}

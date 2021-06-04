@@ -1,0 +1,14 @@
+.App {
+    display: flex;
+    justify-content: center;
+}
+
+.calendar, .deals {
+    width: 45%;
+    border: solid 1px transparent;
+    margin: 5px;
+}
+
+.calendar {
+    text-align: center;
+}

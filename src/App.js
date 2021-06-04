@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from './CssStyles/AppStyle.module.css'
+
+import ContainerComponentDates from "./calendar/ForPrintDates/ContainerComponentDates";
+import ContainerComponentMonth from "./calendar/ForPrintMonth/ContainerComponentMonth";
+import ContainerComponentTasks from "./calendar/PrintTasks/ContainerComponentTasks";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.App}>
+      <div className={styles.calendar}>
+        <ContainerComponentMonth />
+        <ContainerComponentDates />
+      </div>
+      <div className={styles.deals}>
+        <ContainerComponentTasks />
+      </div>
     </div>
   );
 }
